@@ -1,0 +1,122 @@
+Found "C:\Users\Mario\codenation\java-10\.mvn\wrapper\maven-wrapper.jar"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.challenge:spring-data-ddl >--------------------
+[INFO] Building spring-data-ddl 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-data-ddl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-data-ddl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to C:\Users\Mario\codenation\java-10\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-data-ddl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Mario\codenation\java-10\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-data-ddl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Mario\codenation\java-10\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-data-ddl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.challenge.SpringChallengeApplicationTests
+17:50:16.105 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.challenge.SpringChallengeApplicationTests]
+17:50:16.124 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:50:16.157 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:50:16.217 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.challenge.SpringChallengeApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:50:16.256 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.challenge.SpringChallengeApplicationTests], using SpringBootContextLoader
+17:50:16.265 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.challenge.SpringChallengeApplicationTests]: class path resource [com/challenge/SpringChallengeApplicationTests-context.xml] does not exist
+17:50:16.266 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.challenge.SpringChallengeApplicationTests]: class path resource [com/challenge/SpringChallengeApplicationTestsContext.groovy] does not exist
+17:50:16.267 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.challenge.SpringChallengeApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:50:16.269 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.challenge.SpringChallengeApplicationTests]: SpringChallengeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:50:16.393 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.challenge.SpringChallengeApplicationTests]
+17:50:16.597 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Mario\codenation\java-10\target\classes\com\challenge\SpringChallengeApplication.class]
+17:50:16.603 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.challenge.SpringChallengeApplication for test class com.challenge.SpringChallengeApplicationTests
+17:50:16.795 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.challenge.SpringChallengeApplicationTests]: using defaults.
+17:50:16.796 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+17:50:16.827 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+17:50:16.859 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7f3b84b8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57a3af25, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2b662a77, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7f0eb4b4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5c33f1a9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1623b78d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c8c12ac, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6adbc9d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4550bb58, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ec4f3a0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@223191a6]
+17:50:16.872 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.SpringChallengeApplicationTests]
+17:50:16.875 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.SpringChallengeApplicationTests]
+17:50:16.881 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.SpringChallengeApplicationTests]
+17:50:16.882 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.SpringChallengeApplicationTests]
+17:50:16.885 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.SpringChallengeApplicationTests]
+17:50:16.885 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.SpringChallengeApplicationTests]
+17:50:16.899 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@799f10e1 testClass = SpringChallengeApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4c371370 testClass = SpringChallengeApplicationTests, locations = '{}', classes = '{class com.challenge.SpringChallengeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@11758f2a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@491cc5c9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@543c6f6d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7276c8cd], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+17:50:16.910 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.SpringChallengeApplicationTests]
+17:50:16.912 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.SpringChallengeApplicationTests]
+17:50:16.947 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@799f10e1 testClass = SpringChallengeApplicationTests, testInstance = com.challenge.SpringChallengeApplicationTests@55141def, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4c371370 testClass = SpringChallengeApplicationTests, locations = '{}', classes = '{class com.challenge.SpringChallengeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@11758f2a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@491cc5c9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@543c6f6d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7276c8cd], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+17:50:17.010 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2020-05-16 17:50:17.647  INFO 5468 --- [           main] c.c.SpringChallengeApplicationTests      : Starting SpringChallengeApplicationTests on LapTopMario with PID 5468 (started by Mario in C:\Users\Mario\codenation\java-10)
+2020-05-16 17:50:17.651  INFO 5468 --- [           main] c.c.SpringChallengeApplicationTests      : No active profile set, falling back to default profiles: default
+2020-05-16 17:50:18.691  INFO 5468 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-16 17:50:18.752  INFO 5468 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2020-05-16 17:50:20.183  INFO 5468 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-16 17:50:20.634  INFO 5468 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-16 17:50:20.999  INFO 5468 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-16 17:50:21.186  INFO 5468 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-16 17:50:21.192  INFO 5468 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-16 17:50:21.616  INFO 5468 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-16 17:50:22.375  INFO 5468 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table acceleration if exists
+Hibernate: drop table candidate if exists
+Hibernate: drop table challenge if exists
+Hibernate: drop table company if exists
+Hibernate: drop table submission if exists
+Hibernate: drop table users if exists
+Hibernate: create table acceleration (id bigint generated by default as identity, created_at timestamp, name varchar(255), slug varchar(255), challenge_id bigint, primary key (id))
+Hibernate: create table candidate (created_at timestamp, status integer, user_id bigint not null, company_id bigint not null, acceleration_id bigint not null, primary key (acceleration_id, company_id, user_id))
+Hibernate: create table challenge (id bigint generated by default as identity, created_at timestamp, name varchar(255), slug varchar(255), primary key (id))
+Hibernate: create table company (id bigint generated by default as identity, created_at timestamp, name varchar(255), slug varchar(255), primary key (id))
+Hibernate: create table submission (created_at timestamp, score float, user_id bigint not null, challenge_id bigint not null, primary key (challenge_id, user_id))
+Hibernate: create table users (id bigint generated by default as identity, created_at timestamp, email varchar(255), full_name varchar(255), nickname varchar(255), password varchar(255), primary key (id))
+Hibernate: alter table acceleration add constraint FK6bucejmky2hqhcmj6vexf9tkp foreign key (challenge_id) references challenge
+Hibernate: alter table candidate add constraint FKc23nbdgfce6rnt56ofltvxu71 foreign key (user_id) references users
+Hibernate: alter table candidate add constraint FK5859evebv1forwxno1dj2x73m foreign key (company_id) references company
+Hibernate: alter table candidate add constraint FK9wdl31wkstau7n5wckm5prkdg foreign key (acceleration_id) references acceleration
+Hibernate: alter table submission add constraint FKioe5xddu66v3aktrkyxj4vfx9 foreign key (user_id) references users
+Hibernate: alter table submission add constraint FK5w6mihcq53t1j5x2cmgy640cm foreign key (challenge_id) references challenge
+2020-05-16 17:50:24.928  INFO 5468 --- [           main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1af4955e'
+2020-05-16 17:50:24.946  INFO 5468 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-16 17:50:25.530  INFO 5468 --- [           main] c.c.SpringChallengeApplicationTests      : Started SpringChallengeApplicationTests in 8.514 seconds (JVM running for 10.46)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.002 s - in com.challenge.SpringChallengeApplicationTests
+2020-05-16 17:50:25.757  INFO 5468 --- [       Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-16 17:50:25.758  INFO 5468 --- [       Thread-2] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table acceleration if exists
+Hibernate: drop table candidate if exists
+Hibernate: drop table challenge if exists
+Hibernate: drop table company if exists
+Hibernate: drop table submission if exists
+Hibernate: drop table users if exists
+2020-05-16 17:50:25.798  INFO 5468 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-16 17:50:25.803  INFO 5468 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  29.657 s
+[INFO] Finished at: 2020-05-16T17:50:26-03:00
+[INFO] ------------------------------------------------------------------------
